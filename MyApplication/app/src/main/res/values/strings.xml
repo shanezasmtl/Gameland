@@ -11,4 +11,17 @@
     <string name="bottomCircle">bottomCircle</string>
     <string name="submit">submit</string>
     <string name="logo">logo</string>
+    <string name="mail">MAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="policy">I agree to the terms and conditions and the privacy policy.</string>
+    <string name="pseudo">PSEUDO</string>
+    <string name="permission">I agree i am more than 8 years old and have my parents permission.</string>
+    <string name="logosignin">LOGO</string>
+    <string name="bottomcircle">CIRCLE</string>
+    <string name="submitbtn">SUBMIT</string>
+    <string name="topcircle">CIRCLE</string>
+    <string name="logolog_in">logo</string>
+    <string name="bottom_circle">circle</string>
+    <string name="top_circle">circle</string>
+    <string name="log_in">log_inbtn</string>
 </resources>
