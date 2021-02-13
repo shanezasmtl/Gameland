@@ -48,7 +48,6 @@
         android:layout_width="319dp"
         android:layout_height="91dp"
         android:layout_marginTop="12dp"
-        android:layout_marginBottom="16dp"
         android:fontFamily="sans-serif-condensed-light"
         android:gravity="center_horizontal"
         android:shadowColor="#FFFFFF"
@@ -57,35 +56,31 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#FFFFFF"
         app:autoSizeTextType="uniform"
-        app:layout_constraintBottom_toTopOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.304"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/consigne" />
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="161dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.424"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.586"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
         app:srcCompat="@drawable/btnvide" />
 
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="161dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.424"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.666"
+        app:layout_constraintTop_toBottomOf="@+id/consigne2"
         app:srcCompat="@drawable/btnvide" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
